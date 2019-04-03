@@ -157,3 +157,14 @@
 [10:34:22] [Server thread/INFO]: Starting remote control listener
 [10:34:22] [Query Listener #1/INFO]: Query running on 0.0.0.0:25566
 [10:34:22] [RCON Listener #2/INFO]: RCON running on 0.0.0.0:25567
+[10:38:50] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[10:38:50] [Server thread/INFO]: Stopping server
+[10:38:50] [Server thread/INFO]: Saving players
+[10:38:50] [Server thread/INFO]: Saving worlds
+[10:38:50] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[10:38:50] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[10:38:50] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[10:38:50] [Thread-4/INFO]: Stopping server
+[10:38:50] [Thread-4/INFO]: Saving players
+[10:38:50] [Thread-4/INFO]: Saving worlds
+[10:38:50] [Thread-4/INFO]: Saving chunks for level 'world'/Overworld
