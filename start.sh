@@ -15,7 +15,7 @@ RESTART_TIME=$(echo "5000")
 #MONGO=$(cat ~/.mongo)
 JAR="PaperSpigot-1.7.10-R0.1-SNAPSHOT-latest.jar"
 RAM_MIN="1G"
-RAM_MAX="6G"
+RAM_MAX="2G"
 CPU_CORES="4"
 #CURRENT_VERSION="$(curl -s 'https://raw.githubusercontent.com/worldautomation/WA-Launcher-Pack/master/app/assets/distribution.json' | awk '/version/{i++}i==2{print; exit}' | awk -F "\"*:\"*" '{print $2}' | cut -c 3- | cut -c -7)"
 if ! screen -list | grep -q "iogame"; then
