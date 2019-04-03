@@ -11,6 +11,13 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
+messages:
+  whitelist: You are not whitelisted on this server!
+  unknown-command: Unknown command. Type "/help" for help.
+  server-full: The server is full!
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: Server is restarting
 settings:
   save-user-cache-on-stop-only: false
   bungeecord: false
@@ -35,13 +42,6 @@ settings:
       max: 2048.0
   global-api-cache: false
   debug: false
-messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
 commands:
   tab-complete: 0
   log: true
@@ -117,13 +117,13 @@ world-settings:
       combat-exhaustion: 0.3
       regen-exhaustion: 3.0
     max-tnt-per-tick: 100
+    item-despawn-rate: 6000
+    merge-radius:
+      item: 2.5
+      exp: 3.0
     view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
-    merge-radius:
-      exp: 3.0
-      item: 2.5
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
