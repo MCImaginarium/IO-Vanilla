@@ -20,7 +20,7 @@ messages:
   restart: Server is restarting
 settings:
   save-user-cache-on-stop-only: false
-  bungeecord: true
+  bungeecord: false
   late-bind: false
   sample-count: 12
   player-shuffle: 0
@@ -117,13 +117,13 @@ world-settings:
       combat-exhaustion: 0.3
       regen-exhaustion: 3.0
     max-tnt-per-tick: 100
+    item-despawn-rate: 6000
+    merge-radius:
+      item: 2.5
+      exp: 3.0
     view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
-    merge-radius:
-      exp: 3.0
-      item: 2.5
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
